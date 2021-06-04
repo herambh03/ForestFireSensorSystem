@@ -65,3 +65,8 @@ void loop()
   }
 }
 ```
+
+## Further Advancements
+The following improvements can be made with this project:
+1. The Sensor System can be powered with the help of solar cells, making it a sustainable project
+2. A machine learning algorithm can be trained in order to predict areas of the forest that are frequently affected by forest wildfires and these systems can be installed at those places.
