@@ -2,6 +2,7 @@
 ## Introduction
 Forests are one of the most essential natural resources on Earth. In order to sustain life on Earth we must conserve these forests. In this project we will use an Arduino UNO, a flame detector, a flame detector, and a MQ-2 gas sensor. These devices can be installed at strategic locations all over the forest. The devices are placed with a water reservoir at that location in order to extinguish the fire in case of a fire. 
 
+![image](https://user-images.githubusercontent.com/82715887/121134279-d9af1100-c850-11eb-9e2a-836963d7fbd2.png)
 
 ## Components and Supplies
  * Arduino UNO R3 - 1
