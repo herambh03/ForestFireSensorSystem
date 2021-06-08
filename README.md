@@ -87,6 +87,8 @@ void loop()
   }
 }
 ```
+## Simulate Model
+https://www.tinkercad.com/things/8bv7PSLWi2L-forestfiresensorsystemfinal
 
 ## Further Advancements
 The following improvements can be made with this project:
