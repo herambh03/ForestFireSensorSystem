@@ -2,12 +2,33 @@
 ## Introduction
 Forests are one of the most essential natural resources on Earth. In order to sustain life on Earth we must conserve these forests. In this project we will use an Arduino UNO, a flame detector, a flame detector, and a MQ-2 gas sensor. These devices can be installed at strategic locations all over the forest. The devices are placed with a water reservoir at that location in order to extinguish the fire in case of a fire. 
 
+
 ## Components and Supplies
- * Arduino UNO  - 1
+ * Arduino UNO R3 - 1
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/82715887/121132908-5a6d0d80-c84f-11eb-8ffa-d429d5bbb460.png)
  * Flame Sensor - 1
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/82715887/121132966-6953c000-c84f-11eb-9452-2029f6443f4f.png)
  * MQ-2 Gas Sensor  - 1
- * Buzzer - 1
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/82715887/121133183-aa4bd480-c84f-11eb-8010-c4f84afb7ac5.png)
+ * Piezo Buzzer - 1
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/82715887/121133252-c0599500-c84f-11eb-8f13-596119b76bf0.png)
  * Red LED  - 1
+ 
+ 
+ ![image](https://user-images.githubusercontent.com/82715887/121133333-d36c6500-c84f-11eb-8c55-fb3c0ce80d12.png)
+* Resistors  - 3
+
+
+![image](https://user-images.githubusercontent.com/82715887/121133525-1595a680-c850-11eb-8a56-025e0daf54fa.png)
+
 
 ## Detecting the Fire
 
@@ -51,7 +72,7 @@ void loop()
   int smoke = analogRead(smokeSensor); //Read the value from the MQ-2 sensor
   Flame = digitalRead(flameSensor); //Read the value from the Flame Sensor
 
-  if(smoke>thresholdSmoke || Flame=LOW) // If smoke value exceeds the threshold or if a flame is detected
+  if(smoke>thresholdSmoke || Flame==LOW) // If smoke value exceeds the threshold or if a flame is detected
   {
     //Buzzer needs to beep
     tone(buzzer, 2000); // Send 1KHz sound signal
