@@ -1,6 +1,6 @@
 # Forest Fire Sensor System
 ## Introduction
-Forests are essential natural resources on Earth. To sustain life on Earth, we must conserve these forests. This project will use an Arduino UNO, a flame detector, a flame detector, and an MQ-2 gas sensor. These devices can be installed at strategic locations all over the forest along with a water reservoir at that location to extinguish in case of a fire.
+Forests are essential natural resources on Earth. To sustain life on Earth, we must conserve these forests. This project will use an Arduino UNO, a flame detector, and an MQ-2 gas sensor. These devices can be installed at strategic locations all over the forest along with a water reservoir at that location to extinguish in case of a fire.
 
 ![image](https://user-images.githubusercontent.com/82715887/121134279-d9af1100-c850-11eb-9e2a-836963d7fbd2.png)
 
@@ -34,13 +34,13 @@ Forests are essential natural resources on Earth. To sustain life on Earth, we m
 ## Detecting the Fire
 
 ### Role of Flame Sensor
-The sensors in the flame detector will sense the radiation emitted by the flame, the sensor of the flame detector would be a photoelectric sensor. This sensor would convert the radiant intensity signal of the flame to a relevant voltage signal. This would then be processed in a single chip microcomputer and converted as output. Therefore, the high-speed response of these sensors can prove critical in case of a fire.
+The sensors in the flame detector will sense the radiation emitted by the flame, the sensor of the flame detector would be a photoelectric sensor. This sensor would convert the radiant intensity signal of the flame to a relevant voltage signal, which would then be processed in a single chip microcomputer and converted as output. Therefore, the high-speed response of these sensors can prove critical in case of a fire.
 ![image](https://user-images.githubusercontent.com/82715887/120279378-fb9a1800-c2d3-11eb-8e19-abbed31a709c.png)
 
 The wavelengths corresponding to the peak emissions of the Sun (5777 K), the Earth's surface (300 K) and forest fires (600 to 1000 K).
 
 ### Role of MQ-2 Sensor
-MQ-2 gas sensor has a high sensitivity to propane and smoke. It can detect natural gas and other flammable gases as well. In case of heavy smoke, the IR flame sensor may not be able to detect the flames. Additionally, smoke travels and spreads faster than heat. Therefore, we use the MQ-2 Sensor to detect smoke to detect forest fires at the earliest.
+The MQ-2 gas sensor has a high sensitivity to propane and smoke. It can detect natural gas and other flammable gases as well. In case of dense smoke, the IR flame sensor may not be able to detect the flames. Additionally, smoke travels and spreads faster than heat. Therefore, we use the MQ-2 Sensor to detect smoke to detect forest fires at the earliest.
 
 ## Arduino Code
 
@@ -92,4 +92,4 @@ https://www.tinkercad.com/things/8bv7PSLWi2L-forestfiresensorsystemfinal
 ## Further Advancements
 The following improvements can be made with this project:
 1. The Sensor System can be powered with the help of solar cells, making it a sustainable project.
-2. A machine learning algorithm can be trained in order to predict areas of the forest that are frequently affected by forest wildfires and these systems can be installed at those places.
+2. A machine learning algorithm can be trained in order to classify and predict areas of the forest that are frequently affected by forest wildfires and these systems can be installed at those places.
